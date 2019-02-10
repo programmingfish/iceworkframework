@@ -1,5 +1,12 @@
 //menu Ice Work css framework
-.menu_light{width: 100%; height: 20px; font-size: 25px; font-family: Ubuntu; @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400i,500,500i,700i'); background-color: white; border-width: thin; border-radius: 10px; display: flex;}
-.menu_light item{width: auto; height: 100%;border-width: thin; border-radius: 0px;}
-.menu_dark{width: 100%; height: 20px; font-size: 25px; font-family: Ubuntu; background-color: black; color: white; display: flex}
-.menu_dark item{width: auto; height: 100%; border-radius: 0px;}
+body{position: relative; min-height: 100%}
+.menu_light{width: 100%; height: auto; font-size: 25px; font-family: Ubuntu; @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400i,500,500i,700i'); background-color: white; border-width: thin; border-radius: 10px; display: flex;}
+.menu_light_item{width: auto; height: 100%;border-width: thin; border-radius: 0px;}
+.menu_dark{width: 100%; height: auto; font-size: 15px; font-family: Ubuntu; background-color: #37474f; color: white; display: flex; position: absolute; top: 0; right: 0; left: 0}
+.menu_dark_item{width: auto; height: 100%; border-radius: 0px; padding-left: 1vw; padding-right: 1vw;}
+.menu_item:hover{
+  background-color: #ef6c00;
+}
+.menu{
+  user-select: none;
+}
