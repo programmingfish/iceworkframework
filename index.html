@@ -1,41 +1,92 @@
+<!DOCTYPE html>
 <html>
     <head>
         <script src="javascript/main.js"></script>
+        <meta lang="en">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/body.css">
     </head>
     <body>
-        <div class="menu_dark">
-            <div class="menu_dark_item menu_item menu">
-                <p>Code Examples</p>
-            </div>
-            <div class="menu_dark_item menu_item menu">
-                <p>Download</p>
-            </div>
-            <div class="menu_dark_item menu_item menu">
-                <p>Tutorial</p>
-            </div>
-            <div class="menu_dark_item menu_item menu">
-                <p>Contributers</p>
-            </div>
-            <div class="menu_dark_item menu_item menu">
-                <p>Github</p>
-            </div>
-            <div class="menu_dark_item menu_item menu">
-                <p>Contribute</p>
-            </div>
-        </div>
-        <div class="main">
-            <h1>Ice Work Framework</h1>
-            <p>Download the Ice Work FrameWork and apply the classes and your ready to go. Or you can contribute to the project.</p>
-            <h4>A coding box example:</h4>
-            <div class="infobox">
-              <h4>This is an info box</h4>
-                <p>This is an example box with some exapmple content. And so on it's nothing special but still it has something secret.</p>
-                <button class="info_btb">Read More</button>
-            </div>
-        </div>
+        <nav>
+            <navel>
+                <p>Nav element</p>
+            </navel>
+            <navel>
+                <p>Disabled element</p>
+            </navel>
+            <navelfind style="float: right">
+                <input type="text" placeholder="search" name="search" class="input_tx input_search"/>
+            </navelfind>
+        </nav>
+        <main>
+            <h1>Ice Work Framework quick start</h1>
+            <article>
+                <div class="art_text">
+                    <h2 class="title_art">Quick introduction:</h2>
+                    <p>You can use the IW (Ice Work) Framework for all your projects. Ranging from a webshop to a newspaper or a portofolio, it doesn't matter IW is open source and can be used by everyone. It can also be adapted by everyone, just sit tight in this short guide you can find all the important stuff, tips, tricks, rules, ... <strong>(use F12 to view all the classes)</strong></p>
+                    <h4 class="sub_title">Community:</h4>
+                    <p>Become part of the community to report bugs, contribute, communicate with experts, watch good memes, ...</p>
+                    <div class="submenu">
+                        <h3>Elements:</h3>
+                        <ul class="submenu_ul">
+                            <li><a href="">Form elements</a></li>
+                            <li><a href="">Navbars</a></li>
+                            <li><a href="">Boxes</a></li>
+                            <li><a href="">Text</a></li>
+                            <li><a href="">Modals</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article><br>
+            <article>
+                <div class="art_text">
+                    <h2>Form Elements:</h2>
+                    <p>Input elements are a handy way to get user input!</p>
+                    <h3>Text input:</h3>
+                    <p>Class: <strong style="color: #3949ab">input_tx</strong></p>
+                    <div>
+                        <input class="input_tx" placeholder="some text"/>
+                    </div>
+                    <h3>Password input:</h3>
+                    <p>Class: <strong style="color: #3949ab">input_tx psw</strong></p>
+                    <div>
+                        <form>
+                            <input class="input_tx psw" type="password" placeholder="1234" required/>
+                        </form>
+                    </div>
+                    <h3>Text area:</h3>
+                    <p>Class: <strong style="color: #3949ab">none</strong></p>
+                    <div>
+                        <form>
+                            <textarea cols="50" rows="1" title="enlarge me"></textarea>
+                        </form>
+                    </div>
+                    <h3>Button:</h3>
+                    <p>Class: <strong style="color: #3949ab">none btb_reset</strong></p>
+                    <div>
+                        <form>
+                            <button>Submit</button><button class="btb_reset">Reset</button>
+                        </form>
+                    </div>
+                    <h3>Full form example</h3>
+                    <form>
+                        <label>Your Name:</label><br>
+                            <input type="text" placeholder="John Doe" class="input_tx form_input"/><br>
+                        <label>Your Email:</label><br>
+                            <input type="email" placeholder="john.doe@loremipsum.ipsum" class="input_tx form_input"/><br>
+                        <label>Your Password:</label><br>
+                            <input type="password" placeholder="1234" class="input_tx form_input"/><br>
+                        <label>Your birthday:</label>
+                            <input type="date" placeholder="01/01/2000" class="input_tx form_input"/><br>
+                        <label>Tell us something about you:</label><br>
+                            <textarea class="form_input"></textarea>
+                        <button>Submit</button>
+                        <input type="reset" class="btb_reset" style="float: right"/>
+                    </form>
+                </div>
+            </article>
+        </main>
     </body>
 </html>
