@@ -1,22 +1,63 @@
-//body css file
-//author: Arvid Dezittere   last edit: 22/02/2019     version: Beta 1.2.0
-.main{
+/*body css Ice Work Framework */
+main{
   font-family: Ubuntu;
-  margin-left: 7%;
-  margin-right: 5%;
   margin-top: 43px;
-  position: fixed;
-  line-height: 4px;
 }
 * {
   font-family: sans-serif;
 }
-.infobox{
-  width: 85%;
-  height: auto;
-  word-break: break-word;
-  line-height: normal;
-  background-color: #eeeeee;
-  border-radius: 5px;
-  padding: 2px;
+li{line-height: normal;}
+article{
+  width: 75%; height: auto;
+  border-radius: 7px; border-width: thin;
+  background-color: #b0bec5; font-size: 20px;
+  margin: auto;
 }
+.title_art{text-decoration: underline;}
+.art_text{padding-left: 5%; padding-top: 2%; padding-bottom: 2%; padding-right: 5%}
+.sub_title{text-decoration: underline; font-size: 20px}
+.img_art{float: right;}
+a{color: #0277bd}
+.submenu_ul{font-size: 20px}
+.input_tx{
+  font-size: 20px; text-align: center; font-family: sans-serif;
+  width: 50%; height: 30px;
+  border-top-width: 0px; border-left-width: 0px; border-right-width: 0px;
+  outline: none; border-radius: 5px; border-bottom-width: thin; border-bottom-color: #37474f;
+  margin-top: 2px; margin-bottom: 2px;
+}
+.input_tx:focus{
+  box-shadow: 0 0 3pt 2pt #4fc3f7;
+}
+.input_search{
+  margin: auto;
+  margin-top: 3%;
+}
+.input_tx:hover{
+  box-shadow: 0 0 3pt 2pt #01579b;
+}
+.form_input{width: 100%; margin-bottom: 9px}
+label{font-family: sans-serif; font-size: 20px}
+.input_tx:active{outline-width: thin; outline-color: #1e88e5;outline: inherit;}
+textarea{overflow: hidden; border-radius: 5px; font-size: 20px; width: 50%; height: auto; outline-width: thin; outline: none; border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: thin; border-bottom-color: black}
+button{
+  border-radius: 5px; width: 200px; height: 30px;
+  font-size: 22px; outline-width: 0px; border-width: 1px; border-style: hidden;
+  margin-right: 9px;
+}
+.btb_reset{
+  border-radius: 5px; width: 200px; height: 30px; background-color: #e64a19; color: white;
+  font-size: 22px; outline-width: 0px; border-width: 1px; border-style: hidden;
+  margin-left: 9px; margin-right: 9px;
+}
+.btb_reset:hover{box-shadow: 0 0 3pt 2pt #dd2c00}
+button:hover{box-shadow: 0 0 3pt 2pt #7986cb;}
+comb_input{
+  display: flex;
+  font-size: 20px; text-align: center; font-family: sans-serif;
+  width: 50%; height: 30px;
+  border-top-width: 0px; border-left-width: 0px; border-right-width: 0px;
+  outline: none; border-radius: 5px; border-bottom-width: thin; border-bottom-color: #37474f;
+}
+.btb_comb{width: auto; border-width: 0px; text-align: center;}
+a:hover{color: #01579b}
