@@ -1,4 +1,3 @@
-//data file links
-var links = [
-  {link0: "https://github.com/programmingfish/iceworkframework/css/menu.css"}
-];
+"style": [
+  {"https://github.com/programmingfish/iceworkframework/css/menu.css"}
+],
