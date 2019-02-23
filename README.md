@@ -1,0 +1,3 @@
+# iceworkframework
+free to use for everyone, you can use it on your website, app, ...
+contributing is also possible.
