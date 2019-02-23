@@ -1,0 +1,33 @@
+									LICENSE
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+								Everything needs a license, including this
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	1) Reselling:																       
+	 	reselling is strictly forbidden under any condition! The css, Javascript, ... are property of the Ice Work foundation and Octa Con
+		software. The framework is specificly created to be free and accesible for everyone, so that's means that reselling it under your
+		own name even with the minnor adjustments is forbidden! If we see that you are reselling/ selling the framework we will be
+		forced to let you donate all the money to charity! 
+	2) Content:
+		all the content is not created by the Ice Work foundation, it's contributers (like: Jquery) is property of the foundation that created
+		the specific content. All the css, javascript, html, ... files that are created by the Ice Work foundation are property of the Ice Work
+		foundation and Octa Con software and are not meant to be sold (see [1 resseling]).
+	3) Contributing:
+		contributing to the project is fully free. Contributers CAN NOT edit the stable version, if you want to contribute you can find the 
+		contribute files on Github.
+	4) Use:
+		we are not responsible for websites that host harmfull content and use our framework to deliver the result/ website content to the end
+		user. If you think that a websites performs illegal actions (like: childporn, weapon selling, ...) then please contact your local goverment or
+		responsible person. Do also note that the Ice Work foundation, Octa Con software and it's contributers are not responsible for harmfull 
+		websites that use our framework to deliver it's content to the end users. [like stated above]
+	5) Privacy:
+		See folder: privacy\privacy.txt
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------- last edit: 23/02/2019     ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------- author: Arvid Dezittere ----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(C) The Ice Work foundation, Octa Con software, Arvid Dezittere 2019-present (depends on how long the world will still exist ;-) ) All the content of this file is property of the creator and 
+owner. The most recent version can be viewed on: programmingfish.me/icework/licens.md
+		
