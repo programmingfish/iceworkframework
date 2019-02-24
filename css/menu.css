@@ -6,6 +6,4 @@ navelfind{width: auto; height: 100%; padding-left: 1vw; padding-right: 1vw;}
 navel:hover{
   background-color: #ef6c00;
 }
-nav{
-  user-select: none;
-}
+nav{user-select: none}
