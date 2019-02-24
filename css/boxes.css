@@ -4,5 +4,10 @@ modal_warn{
   /* this is a warning box */
   width: 20%; height: auto;
   border-radius: 5px; border-width: thin; border-color: red;
+  text-align: center; position: relative; word-wrap: break-word;
+}
+modal_info{
+  width: 20%; height: auto;
+  border-radius: 5px; border-width: thin; border-color: red;
   text-align: center; position: relative;
 }
