@@ -1,4 +1,5 @@
-Current version: Beta 1.1.1
+Current version: Beta b1.0
+Current stable version: Alpha v1.0
 # iceworkframework
 free to use for everyone, you can use it on your website, app, ...
 contributing is also possible.
