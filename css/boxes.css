@@ -1,12 +1,12 @@
 //boxes css file
 //author: Arvid Dezitter    last edit: 22/02/2019   version: Beta 1.2.0
-modal_warn{
+modalwarn{
   /* this is a warning box */
   width: 20%; height: auto;
   border-radius: 5px; border-width: thin; border-color: red;
   text-align: center; position: relative; word-wrap: break-word;
 }
-modal_info{
+modalinfo{
   width: 20%; height: auto;
   border-radius: 5px; border-width: thin; border-color: red;
   text-align: center; position: relative;
