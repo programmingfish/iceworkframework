@@ -16,6 +16,7 @@ Steps to reproduce the behavior:
 2. Click on `New issue`
 3. Click on `Open a regular issue`
 4. Describe your issue
+5. Optional provide a screenshot
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
