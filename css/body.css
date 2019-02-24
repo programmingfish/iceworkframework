@@ -50,7 +50,7 @@ button{
   font-size: 22px; outline-width: 0px; border-width: 1px; border-style: hidden;
   margin-left: 9px; margin-right: 9px;
 }
-.btb_reset:hover{box-shadow: 0 0 3pt 2pt #dd2c00}
+.btb_reset:hover{box-shadow: 0px 0px 14pt 10pt #dd2c00}
 button:hover{box-shadow: 0 0 3pt 2pt #7986cb;}
 comb_input{
   display: flex;
