@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: 'Bug Report'
 labels: ''
 assignees: ''
 
@@ -17,6 +17,8 @@ Steps to reproduce the behavior:
 3. Click on `Open a regular issue`
 4. Describe your issue
 5. Optional provide a screenshot
+6. Describe wich version of the framework (Beta/ Alpha 1.0/1.2/ ...)
+7. Mobile or Desktop Version
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
