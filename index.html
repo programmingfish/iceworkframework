@@ -4,8 +4,7 @@
         <script src="javascript/main.js"></script>
         <meta lang="en">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <title>Ice Work example page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://octacon.org/cacher"></script>
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/body.css">
     </head>
@@ -32,9 +31,9 @@
                     <div class="submenu">
                         <h3>Elements:</h3>
                         <ul class="submenu_ul">
-                            <li><a href="#forms">Form elements</a></li>
-                            <li><a href="">Navbars</a></li>
-                            <li><a href="">Boxes</a></li>
+                            <li><a href="#form">Form elements</a></li>
+                            <li><a href="#nav">Navbars</a></li>
+                            <li><a href="#boxes">Boxes</a></li>
                             <li><a href="">Text</a></li>
                             <li><a href="">Modals</a></li>
                         </ul>
@@ -42,7 +41,7 @@
                 </div>
             </article><br>
             <article>
-                <div class="art_text" id="forms">
+                <div class="art_text" id="form">
                     <h2>Form Elements:</h2>
                     <p>Input elements are a handy way to get user input!</p>
                     <h3>Text input:</h3>
@@ -78,14 +77,34 @@
                         <label>Your Email:</label><br>
                             <input type="email" placeholder="john.doe@loremipsum.ipsum" class="input_tx form_input"/><br>
                         <label>Your Password:</label><br>
-                            <input type="password" placeholder="1234" class="input_tx form_input"/><br>
+                            <input type="password" placeholder="1234" class="input_tx form_input psw" required/><br>
                         <label>Your birthday:</label>
                             <input type="date" placeholder="01/01/2000" class="input_tx form_input"/><br>
                         <label>Tell us something about you:</label><br>
                             <textarea class="form_input"></textarea>
                         <button>Submit</button>
-                        <input type="reset" class="btb_reset" style="float: right"/>
+                        <input type="reset" class="btb_reset" style="float: right"/><br>
                     </form>
+                </div>
+            </article><br>
+            <article>
+                <div class="art_text" id="nav">
+                    <h2>Navbars</h2>
+                    <p>First use the tag <strong>nav</strong> to define the navbar and use the tag <strong>navel</strong> to define your navbar sub-items.</p>
+                    <h3>All navbar tags and sub-tags:</h3>
+                    <ul>
+                        <li>nav: <strong>Defines the navbar itself</strong></li>
+                        <li>navel: <strong>Defines the navbar element (like a link to another page)</strong></li>
+                        <li>navelfind: <strong>Adapts the style so an input field could fit in it.</strong></li>
+                        <li>navel + nav_disb (as class): <strong>Defines a disabled link in the menu</strong></li>
+                    </ul>
+                    <h4>Css file used: <strong>menu.css</strong></h4>
+                </div>
+            </article><br>
+            <article>
+                <div class="art_text" id="boxes">
+                    <h2>Boxes</h2>
+                    <p></p>
                 </div>
             </article>
         </main>
