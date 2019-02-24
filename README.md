@@ -8,7 +8,7 @@ contributing is also possible.
 2. New element: **article**
 3. Improved stabilty
 4. Php css import
-5. Modal boxes **(is still in beta)**
+5. Modal boxes **(béta only)**
 ### Coming soon:
 - [ ] Mobile support
 - [ ] Script Caching
