@@ -41,6 +41,9 @@ a{color: #0277bd}
 label{font-family: sans-serif; font-size: 20px}
 .input_tx:active{outline-width: thin; outline-color: #1e88e5;outline: inherit;}
 textarea{overflow: hidden; border-radius: 5px; font-size: 20px; width: 50%; height: auto; outline-width: thin; outline: none; border-top-width: 0px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: thin; border-bottom-color: black}
+textarea:hover{
+  box-shadow: 0 0 3pt 2pt #01579b;
+}
 button{
   border-radius: 5px; width: 200px; height: 30px;
   font-size: 22px; outline-width: 0px; border-width: 1px; border-style: hidden;
