@@ -1,6 +1,6 @@
 ### Current version: **Alpha 1.0**
 ### Current stable version: **Alpha 1.0**
-# iceworkframework
+# Ice Work<sup>®</sup> framework (IW<sup>®</sup> for short)
 free to use for everyone, you can use it on your website, app, ...
 contributing is also possible.
 ## Download the files or link the files on your website and you're ready to go
