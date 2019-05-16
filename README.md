@@ -12,7 +12,7 @@ contributing is also possible.
 5. Modal boxes **(béta only)**
 ### Coming soon:
 - [x] Mobile support **(currently in beta)**
-- [ ] Script Caching
+- [x] Script Caching
 ## For what can you use it?
 You can use it to tlet your website look better, there is only one thing you need and it is HTML5. You can just write the logical name for your element (like a navbar) `<nav>` so no problems anymore with classes. It's also fully free to use both for commercial websites and non-commercial websites.
 **Only big updates and big sub updates are shown in the release tab**
