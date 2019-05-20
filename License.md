@@ -1,9 +1,7 @@
 # License Ice Work<sup>(R)</sup>
 
 ## the right to resell:
-It is forbidden to resell the IW framework the IW
-is meant to be free and cannot be resold in any
-currency. The price is **0 euros, dollars, yen, ...**
+Reselling is not allowed! This software is meant to be free for everyone so that means that nobody can resell it both under our name or rebranded it under his or here name! The owner of all the source code (excluding Jquery and Font Awesome) is still the Octa Con open source organization. Octa Con has the right to prohibited the use of the source code and there by the framework if we see that the framework is reselled.
 
 ## the right to rebrand the code under an other name:
 The framework is created by the IW foundation, Octa Con
