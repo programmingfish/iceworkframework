@@ -7,6 +7,6 @@
       include 'https://github.com/programmingfish/icework/menu.css';
       include 'https://github.com/programmingfish/icework/boxes.css';
       include 'https://stable.archive.iw.org/Alpha/V1/download.php;
-//Linux download
+    //Linux download
       include 'https://beta.archive.iw.org/Beta/B1/3.3.4/files/Linux/download.sh';
  ?>
